@@ -12,8 +12,9 @@ div.userForm {
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 1px solid blue;
-    margin-top: 50px;
+    /* border: 1px solid blue; */
+    margin: 50px 100px 0 100px;
+    
 }
 
 form {
@@ -21,15 +22,58 @@ form {
     border: 1px solid;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 form input {
     width: 100%;
     padding: 15px;
     margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* 
+form label {
+    padding: 10px;
+} */
+
+input.save {
+    background-color: dodgerblue;
+    cursor: pointer;
 }
 
-form label {
+.userForm.save::hover {
+    background-color: rgb(5, 21, 37);
+    color: aliceblue;
+}
+
+/* display part design */
+
+div.add_user {
+    padding: 15px;
     margin-top: 15px;
-    padding-top: 10px;
+}
+
+.add_user button {
+    background-color: dodgerblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+div.add_user a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* display table design */
+
+div.table {
+    border-collapse: collapse;
+}
+
+.update_btn {
+    background-color: dodgerblue;
+    padding:20px;
 }
